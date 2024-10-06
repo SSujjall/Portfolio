@@ -1,5 +1,11 @@
 export default [
     {
+        title: 'ToDoLi',
+        imgUrl: 'Todoli.png',
+        stack: ['.NET 8', 'C#', 'EF Core', 'MSSQL'],
+        link: 'https://github.com/SSujjall/ToDoLi-Frontend'
+    },
+    {
         title: 'CHATILY',
         imgUrl: 'Chatily.png',
         stack: ['.NET 8', 'React.js'],
