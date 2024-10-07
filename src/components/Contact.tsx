@@ -7,20 +7,33 @@ function Contact() {
                 <form
                     action="https://getform.io/f/payggwna"
                     method="POST"
-                    className="flex flex-col w-8/12 md:w-8/12 lg:w-5/12"
+                    className="flex flex-col w-9/12 md:w-9/12 lg:w-9/12 max-w-[700px]"
                 >
                     <Title id="contact">Contact</Title>
-                    <input
-                        type="text"
-                        name="name"
-                        placeholder="Name"
-                        className="p-2 bg-transparent border-2 
-                        rounded-md focus:outline-none"
-                        required
-                    />
+                    
+                    {/* Container for Name and Phone Number on the same line */}
+                    <div className="flex flex-col md:flex-row gap-4">
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Name"
+                            className="p-2 bg-transparent border-2 
+                            rounded-md focus:outline-none flex-1"
+                            required
+                        />
+                        <input
+                            type="text"
+                            name="phone"
+                            placeholder="Phone Number"
+                            className="p-2 bg-transparent border-2 
+                            rounded-md focus:outline-none flex-1"
+                            required
+                        />
+                    </div>
 
+                    {/* Email Input */}
                     <input
-                        type="text"
+                        type="email"
                         name="email"
                         placeholder="Email"
                         className="my-2 p-2 bg-transparent border-2 
@@ -28,6 +41,7 @@ function Contact() {
                         required
                     />
 
+                    {/* Message Input */}
                     <textarea
                         name="message"
                         placeholder="Message"
@@ -38,19 +52,21 @@ function Contact() {
                         required
                     />
 
+                    {/* Submit Button */}
                     <div className="flex justify-center">
                         <button
                             type="submit"
                             className="text-center inline-block px-8 
                             py-3 w-max text-base font-medium rounded-md
-                            text-white dark:text-black bg-stone-900 dark:bg-stone-100">
+                            text-white dark:text-black bg-stone-900 
+                            hover:bg-slate-700 dark:bg-stone-100 dark:hover:bg-stone-300">
                             Work with me
                         </button>
                     </div>
                 </form>
             </div>
         </div>
-    )
+    );
 }
 
 export default Contact;
