@@ -3,8 +3,8 @@ export default [
         title: 'ToDoLi',
         imgUrl: 'Todoli.png',
         stack: ['.NET 8', 'C#', 'EF Core', 'MSSQL'],
-        link: 'https://github.com/SSujjall/ToDoLi-Frontend',
-        description: 'A task management application built with .NET, React.js and Microsoft SQL Server.'
+        link: 'https://todolihaku.netlify.app',
+        description: 'A task management application built with .NET, React.js and Microsoft SQL Server. Deployed in Azure.'
     },
     {
         title: 'CHATILY',
