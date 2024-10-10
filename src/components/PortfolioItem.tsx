@@ -13,7 +13,7 @@ function PortfolioItem({ title, imgUrl, stack, link, description }: PortfolioIte
 
     return (
         <div
-            className='duration-200 hover:-translate-y-1 border dark:border-stone-500 
+            className='duration-200 border dark:border-stone-500 
              drop-shadow-md dark:shadow-gray-600 dark:shadow-md rounded-lg overflow-hidden'
         >
             <a
