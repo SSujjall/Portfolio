@@ -1,21 +1,21 @@
 export default [
     {
         title: 'ToDoLi',
-        imgUrl: 'Todoli.png',
+        imgUrl: 'Todoli.jpg',
         stack: ['.NET 8', 'C#', 'EF Core', 'MSSQL'],
         link: 'https://todolihaku.netlify.app',
         description: 'A task management application built with .NET, React.js and Microsoft SQL Server. Deployed in Azure.'
     },
     {
         title: 'CHATILY',
-        imgUrl: 'Chatily.png',
+        imgUrl: 'Chatily.jpg',
         stack: ['.NET 8', 'React.js', 'SignalR'],
         link: 'https://chatily.netlify.app/',
         description: 'A real-time chat application using .NET, SignalR and React.js. Deployed in Azure.'
     },
     {
         title: '3D SURVIVAL GAME',
-        imgUrl: '3dSurvivalGame.png',
+        imgUrl: '3dSurvivalGame.jpg',
         stack: ['Unity', 'C#'],
         link: 'https://gitlab.com/fyp33409/TheLostOne.git',
         description: 'An immersive 3D survival game developed in Unity.'
